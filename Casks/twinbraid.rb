@@ -1,9 +1,9 @@
 cask "twinbraid" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.2.2"
-  sha256 arm:   "2c0dccfec4f24779b8e1390715f724f19e789bb466a4ed3963e78d37aa24730e",
-         intel: "0127d641eade81edaf9ca98fec9b562f8aac73ffdd544a1ef75bf2ce0a035f3c"
+  version "0.2.3"
+  sha256 arm:   "e20a56838eab307be638fd2db0a6f81708941d76a13372d998f7b15d038bd415",
+         intel: "4e8ea37ec3a6a6800122fb5d7abd2ec42650726298ff4437a453c47ebe2bb61f"
 
   url "https://github.com/aaryanbindage/twinbraid/releases/download/v#{version}/Twinbraid-#{version}-mac-#{arch}.dmg"
   name "Twinbraid"
